@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Katie Miller</title>
+
+</head>
+
+<body>
+
+  <b> <u>The Basics of the Web and HTML</b></u><br>
+<br>
+<p><b>Note:</b> There are times when I intentionally put spaces in the tags to make the coding visible for me on the output, as I don't know whether I will be able to see what I originally typed in html</p>
+
+Part 1: Basic understanding of how the internet works <br>
+Understanding of how users, computers, servers, http (web protocol) and the internet all fit together<br>
+<br>
+Part 2: Use HTML tags to create simple HTML doc that a browser can display as a web page<br>
+<p> The World Wide Web is a collection of HTML documents. HTML = HyperText Markup Language. The WWW was invented in the 1990s and has 30 billion pages. Files found on the Web can be plain text, HTML, images, videos, and music. </p>
+
+Major Pieces:<br>
+Your browser: When you go to a website, your browser makes request via internet to servers using protocol called http.<br>
+Server: Responds with files that your browser displays. Servers sit and host files.<br>
+<br>
+<b>HTML:</b><br>
+<br>
+Text content/what you see<br>
+Markup/what it looks like/how it's arranged<br>
+References to other documents (images/videos)<br>
+Links to other pages<br>
+<br>
+Mostly, plain text is just plain text in HTML<br>
+<br>
+Test browser: <a href="www.udacity.com/html_playground">www.udacity.com/html_playground</a><br>
+How to add a hyperlink: < a href="website name"> content< /a> with no spaces<br>
+a is anchor tag, href is an attribute name<br>
+HTML Markup: < name> contents < /name> with no spaces, where opening tag plus contents plus closing tag equals element<br>
+Exception: Void tags have no content and no end tag. Such as < br> and the tag to add an image: < img src="url" alt="text"><br>
+src is source, alt refers to "alternate," or text that displays when image doesn't load<br>
+<br>
+<b>Inline vs block</b><br>
+< br> is simply a line break, so it is inline, as are < b>, < em>, and < img>.</em></b><br>
+< p> is block--makes invisible block around text, sections it off. Is not a void tag--requires content and end tag<br>
+<br>
+container elements--elements that contain stuff inside them (more on that later?)<br>
+<br>
+Control how text looks: span/div<br>
+< span>content< /span> is inline<br>
+< span class="foo"> 
+text
+< /span> turns 2 lines into one?<br>
+<br>
+< div>content< /div>
+is block, as are < p> and < form><br>
+<div class="bar">
+text
+
+</div><br>
+acts like < p> and creates box around text<br>
+<br>
+<b><u>HTML Document Format</u></b><br>
+<br>
+< !DOCTYPE HTML><br>
+< html><br>
+  < head><br>
+    < title>Title!</title><br>
+  < /head><br>
+  < body><br>
+    < b>content< /b><br>
+  < /body><br>
+< /html>
+<br>So far, we've been working in body format
+
+</body>
+
+</html>
